@@ -1,0 +1,197 @@
+.background-default {
+    background-color: #36A1D4;
+}
+
+h1 {
+    position: absolute;
+    width: 568px;
+    height: 99px;
+    left: 740px;
+    top: 320px;
+
+    font-family: 'Asap Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 120px;
+    line-height: 138px;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.home-style {
+    position: absolute;
+    width: 74px;
+    height: 49px;
+    left: 924px;
+    top: 16px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 50px;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.faq-style {
+    position: absolute;
+    width: 54px;
+    height: 49px;
+    left: 1048px;
+    top: 16px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 50px;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about-style {
+    position: absolute;
+    width: 92px;
+    height: 52px;
+    left: 1142px;
+    top: 16px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 50px;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.account-style {
+    position: absolute;
+    width: 132px;
+    height: 49px;
+    left: 1268px;
+    top: 16px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 50px;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.createAccountButton-style {
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    left: 655px;
+    top: 562px;
+
+    font-family: 'Asap Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 39px;
+
+    color: #FFFBFB;
+}
+
+.or-style {
+    position: absolute;
+    width: 33px;
+    height: 44px;
+    left: 944px;
+    top: 562px;
+
+    font-family: 'Asap Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 39px;
+
+    color: #FFFBFB;
+}
+
+.signInButton-style {
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    left: 1096px;
+    top: 559px;
+
+    font-family: 'Asap Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 39px;
+
+    color: #FFFBFB;
+}
+
+.createAccount-outline {
+    position: absolute;
+    width: 276px;
+    height: 76px;
+    left: 615px;
+    top: 577px;
+
+    border: 2px solid #FFFBFB;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.signIn-outline {
+    position: absolute;
+    width: 276px;
+    height: 76px;
+    left: 1005px;
+    top: 577px;
+
+    border: 2px solid #FFFBFB;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.button-shadow {
+    position: absolute;
+    width: 276px;
+    height: 76px;
+    left: 638px;
+    top: 559px;
+
+    background: #1A92D6;
+    border-radius: 10px;
+}
+
+.subtrack-icon {
+    position: absolute;
+    width: 385px;
+    height: 438px;
+    left: 151px;
+    top: 260px;
+
+    background: url(subtrack icon correct.png);
+}
+
+.square {
+    position: absolute;
+    width: 466px;
+    height: 493px;
+    left: 111px;
+    top: 233px;
+
+    border: 5px solid #FFFBFB;
+    box-sizing: border-box;
+}
