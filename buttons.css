@@ -61,3 +61,19 @@
     color: #FFFBFB;
     text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+#logout-btn {
+    position: absolute;
+    width: 245px;
+    height: 40px;
+    left: 623px;
+    top: 886px;
+    
+    font-family: Asap Condensed VF Beta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    
+    color: #FFFBFB;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
