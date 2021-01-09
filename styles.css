@@ -13,6 +13,7 @@ font-weight: normal;
 font-size: 120px;
     
 color: #FFFBFB;
+text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .menu_bar_text {
@@ -22,6 +23,7 @@ font-weight: normal;
 font-size: 34px;
 
 color: #FFFBFB;
+text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .sign_in_page_words {
@@ -31,6 +33,7 @@ font-weight: normal;
 font-size: 34px;
 
 color: #FFFBFB;
+text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .create_account_title {
@@ -40,6 +43,7 @@ font-weight: normal;
 font-size: 96px;
 
 color: #FFFBFB;
+text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .title_subtrack_menu_bar {
@@ -48,7 +52,8 @@ font-style: normal;
 font-weight: 500;
 font-size: 48px;
     
-color: #FFFBFB;    
+color: #FFFBFB;  
+text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);  
 }
 
 .regular_info {
@@ -57,7 +62,8 @@ font-style: normal;
 font-weight: normal;
 font-size: 36px;
     
- color: #FFFBFB;    
+ color: #FFFBFB;  
+ text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);  
 }
 
 .alternate_titles {
@@ -67,6 +73,7 @@ font-weight: normal;
 font-size: 72px;
 
 color: #FFFBFB;
+text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .subtitles {
@@ -76,7 +83,10 @@ font-weight: normal;
 font-size: 48px;
 
 color: #FFFBFB;
+text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+
 
 
 

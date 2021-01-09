@@ -1,0 +1,63 @@
+#home {
+    position: absolute;
+    width: 74px;
+    height: 49px;
+    left: 924px;
+    top: 42px;
+
+    font-family: Asap Condensed VF Beta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+
+    color: #FFFBFB;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#faq {
+    position: absolute;
+    width: 54px;
+    height: 49px;
+    left: 1048px;
+    top: 42px;
+
+    font-family: Asap Condensed VF Beta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    
+    color: #FFFBFB;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#about {
+    position: absolute;
+    width: 92px;
+    height: 52px;
+    left: 1142px;
+    top: 42px;
+
+    font-family: Asap Condensed VF Beta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    
+    color: #FFFBFB;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#account {
+    position: absolute;
+    width: 131px;
+    height: 52px;
+    left: 1274px;
+    top: 42px;
+
+    font-family: Asap Condensed VF Beta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    
+    color: #FFFBFB;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
