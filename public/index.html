@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" class="background-default">
+  <head>
+    <meta charset="UTF-8">
+
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-auth.js"></script>
+
+    <!-- Firebase Config -->
+    <script src="subtrackConfig.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+
+    <!-- Prebuilt Firebase SignIn Widget Script & CSS -->
+    <script src="https://www.gstatic.com/firebasejs/ui/4.7.1/firebase-ui-auth.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.7.1/firebase-ui-auth.css" />
+
+    <!-- SubTrack CSS -->
+    <link rel="stylesheet" type="text/css" href="landing.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <img src="subtrack icon correct.png" alt="subtrack icon" class="subtrack-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Oswald&display=swap" rel="stylesheet">
+
+    <title>SubTrack Web App</title>
+  </head>
+
+  <script>
+    // FirebaseUI config.
+    var uiConfig = {
+    signInSuccessUrl: 'loggedIn.html',
+    signInOptions: [
+        // Leave the lines as is for the providers you want to offer your users.
+        firebase.auth.EmailAuthProvider.PROVIDER_ID,
+    ],
+    };
+
+    // Initialize the FirebaseUI Widget using Firebase.
+    var ui = new firebaseui.auth.AuthUI(firebase.auth());
+    // The start method will wait until the DOM is loaded.
+    ui.start('#firebaseui-auth-container', uiConfig);
+   </script>
+
+  <body>
+    <div id="firebaseui-auth-container" class="prebuilt"></div>
+    <h1 class="subtrack-title">SubTrack</h1>
+    <h2 class="home-style">HOME</h2>
+    <h2 class="faq-style">FAQ</h2>
+    <h2 class="about-style">ABOUT</h2>
+    <h2 class="account-style">ACCOUNT</h2>
+    <div class="icon-square"></div>
+  </body>
+
+</html>
