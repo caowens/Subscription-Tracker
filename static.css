@@ -1,0 +1,31 @@
+#accountbig {
+    position: absolute;
+    width: 689px;
+    height: 127px;
+    left: 634px;
+    top: 197px;
+}
+
+#email {
+    position: absolute;
+    width: 82px;
+    height: 74px;
+    left: 386px;
+    top: 341px;
+}
+
+#theme {
+    position: absolute;
+    width: 93px;
+    height: 48px;
+    left: 370px;
+    top: 464px;
+}
+
+#notif {
+    position: absolute;
+    width: 232px;
+    height: 48px;
+    left: 280px;
+    top: 581px; text-align: center;
+}

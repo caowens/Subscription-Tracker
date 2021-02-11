@@ -1,11 +1,5 @@
-#home {
-    position: absolute;
-    width: 74px;
-    height: 49px;
-    left: 924px;
-    top: 42px;
-
-    font-family: Asap Condensed VF Beta;
+.button {
+    font-family: Oswald;
     font-style: normal;
     font-weight: normal;
     font-size: 34px;
@@ -14,20 +8,20 @@
     text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+#home {
+    position: absolute;
+    width: 74px;
+    height: 52px;
+    left: 924px;
+    top: 42px;
+}
+
 #faq {
     position: absolute;
     width: 54px;
-    height: 49px;
+    height: 52px;
     left: 1048px;
     top: 42px;
-
-    font-family: Asap Condensed VF Beta;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 34px;
-    
-    color: #FFFBFB;
-    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #about {
@@ -36,14 +30,6 @@
     height: 52px;
     left: 1142px;
     top: 42px;
-
-    font-family: Asap Condensed VF Beta;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 34px;
-    
-    color: #FFFBFB;
-    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #account {
@@ -52,14 +38,6 @@
     height: 52px;
     left: 1274px;
     top: 42px;
-
-    font-family: Asap Condensed VF Beta;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 34px;
-    
-    color: #FFFBFB;
-    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #logout-btn {
@@ -68,12 +46,4 @@
     height: 40px;
     left: 623px;
     top: 886px;
-    
-    font-family: Asap Condensed VF Beta;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 34px;
-    
-    color: #FFFBFB;
-    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
