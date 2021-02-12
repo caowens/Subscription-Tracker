@@ -1,0 +1,134 @@
+/* About Page */
+
+.subtrack-icon-main {
+    position: absolute;
+    width: 60px;
+    height: 69px;
+    left: 48px;
+    top: 30px;
+}
+
+.subtrack-title-main {
+    position: absolute;
+    width: 235px;
+    height: 69px;
+    left: 108px;
+    top: -10px;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 71px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navBar {
+    position: absolute;
+    width: 1440px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+
+    background: #1A92D6;
+    z-index: -1;
+}
+
+.main-block {
+    position: absolute;
+    width: 1167px;
+    height: 700px;
+    left: 136px;
+    top: 150px;
+
+    background: #1A92D6;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 38px;
+}
+
+.aboutUs-title {
+    position: absolute;
+    width: 689px;
+    height: 99px;
+    left: 375px;
+    top: 130px;
+
+    font-family: 'Asap Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 83px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.aboutUs-text {
+    font-family: 'Asap Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.team-summary {
+    position: absolute;
+    width: 1046px;
+    height: 165px;
+    left: 188px;
+    top: 240px;
+}
+
+.developers-text {
+    position: absolute;
+    width: 340px;
+    height: 46px;
+    left: 550px;
+    top: 450px;
+
+    font-family: 'Asap Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.charles {
+    position: absolute;
+    width: 1025px;
+    height: 78px;
+    left: 230px;
+    top: 539px;
+}
+
+.natalia {
+    position: absolute;
+    width: 1025px;
+    height: 78px;
+    left: 230px;
+    top: 644px;
+}
+
+.alvin {
+    position: absolute;
+    width: 1025px;
+    height: 78px;
+    left: 226px;
+    top: 746px;
+}
