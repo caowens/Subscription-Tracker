@@ -9,23 +9,44 @@
     <script render src="/vendors/js/subtrackConfig.js"></script>
 </head>
 <body>
-    <nav>
-        <div>
+    <!-- Top Navigation Bar -->
+    <div class="heading">
+        <header>
             <img src="assets/img/subtrack_icon_correct.png" alt="subtrack icon">
             <p>SUBTRACK</p>
-        </div>
-        <ul>
-            <li><a href="home.html">HOME</a></li>
-            <li><a href="faq.hmtl">FAQs</a></li>
-            <li><a href="about.hmtl">ABOUT</a></li>
-            <li><a href="account.html">ACCOUNT</a></li>
-        </ul>
-    </nav>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="faq.hmtl">FAQs</a></li>
+                <li><a href="about.hmtl">ABOUT</a></li>
+                <li><a href="account.html">ACCOUNT</a></li>
+            </ul>
+        </nav>
+    </div>
 
+    <!-- Main Content Section -->
     <main>
         <h1>Compose a subscription</h1>
 
-        
+        <form action="home.html" method="post">
+            <div class="form-field">
+                <label id="name-label" for="name">Name of the Company</label>
+                <input type="text" name="name" id="name" placeholder="E.g Netflix" required />
+            </div>
+
+            <div class="form-field">
+                <label id="name-label" for="name">Payment Due Days</label>
+                <input type="date" name="date" id="date" placeholder="E.g 31" required />
+            </div>
+
+            <div class="form-field">
+                <label id="name-label" for="amount">Amount to be Paid</label>
+                <input type="number" name="amount" id="amount" placeholder="E.g 1.99" min="0" step="0.01" required />
+            </div>
+
+            <button type="submit" id="submit">submit</button>
+        </form>
     </main>
 
     <footer></footer>
