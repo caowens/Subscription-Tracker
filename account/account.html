@@ -1,0 +1,78 @@
+<html>
+
+    <link rel="stylesheet" href="pages.css">
+    <link rel="stylesheet" href="static.css">
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-auth.js"></script>
+    <script src="subtrackConfig.js"></script> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Oswald&display=swap" rel="stylesheet">
+
+<p class="navBar"></p>
+
+<head>
+
+   <h1 class="subtrack-title-main">
+   SUBTRACK
+   </h1>
+
+    
+    <div class="subtrack-home"><a href="home.html">HOME</a></div>
+
+    <div class="subtrack-faq"><a href="faq.html">FAQ</a></div>
+
+    <div class="subtrack-about"><a href="about.html">ABOUT</a></div>
+
+    <div class="subtrack-account"><a href="account.html">ACCOUNT</a></div>
+
+
+</head>
+
+<body class="background-default"></body>
+
+<body>
+
+    <div class="main-block"></div>
+
+    <h1 id="accountbig">
+    Account
+    </h1>
+
+    <h2 id="email">
+    Email:
+    </h2>
+
+    <h2 id="theme">
+    Theme:
+    </h2>
+
+    <h2 id="notif">
+    Notif. Sound:
+    </h2>
+    
+</body>
+
+<body>
+   <form>
+        <div id="logout"><a href="landing_page.html" >LOGOUT</a></div>
+   </form>
+</body>
+
+<script>
+  var auth = firebase.auth();
+</script>
+
+<script>
+    email = firebase.auth().currentUser.email;
+    email = admin.auth().getUserByEmail(email);
+
+    auth.onAuthStateChanged(user => {
+    if (user) {
+      console.log(user.email + " is logged in!");
+    } else {
+      console.log('User is logged out!');
+    }
+  });
+</script>
+
+</html>

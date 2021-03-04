@@ -1,0 +1,89 @@
+#accountbig {
+    position: absolute;
+    width: 689px;
+    height: 127px;
+    left: 620px;
+    top: 197px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 50px;
+ 
+    color: #FFFBFB;
+ 
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#email {
+    position: absolute;
+    width: 82px;
+    height: 74px;
+    left: 386px;
+    top: 341px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 50px;
+ 
+    color: #FFFBFB;
+ 
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#theme {
+    position: absolute;
+    width: 93px;
+    height: 48px;
+    left: 370px;
+    top: 464px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 50px;
+ 
+    color: #FFFBFB;
+ 
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#notif {
+    position: absolute;
+    width: 232px;
+    height: 48px;
+    left: 280px;
+    top: 581px; text-align: center;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 50px;
+ 
+    color: #FFFBFB;
+ 
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#logout {
+    position: absolute;
+    width: 689px;
+    height: 127px;
+    left: 634px;
+    top: 720px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 50px;
+ 
+    color: #FFFBFB;
+ 
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
