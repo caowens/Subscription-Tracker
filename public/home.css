@@ -1,0 +1,566 @@
+/* Home page specific CSS */
+
+#addText-button {
+    position: absolute;
+    display: inline;
+    width: 74px;
+    height: 38px;
+    left: 508px;
+    top: 162px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+
+    border: none;
+    cursor: pointer;
+
+    background: #1A92D6;
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#editText-button {
+    position: absolute;
+    display: inline;
+    width: 93px;
+    height: 55px;
+    left: 680px;
+    top: 162px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    border: none;
+    cursor: pointer;
+
+    background: #1A92D6;
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.deleteText-button {
+    position: absolute;
+    width: 114px;
+    height: 49px;
+    left: 871px;
+    top: 131px;
+
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.line1 {
+    position: absolute;
+    width: 1049px;
+    height: 0px;
+    left: 195px;
+    top: 268px;
+
+    border: 2px solid #FFFBFB;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.line2 {
+    position: absolute;
+    width: 1049px;
+    height: 0px;
+    left: 195px;
+    top: 351px;
+
+    border: 2px solid #FFFBFB;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.line3 {
+    position: absolute;
+    width: 1049px;
+    height: 0px;
+    left: 195px;
+    top: 451px;
+
+    border: 2px solid #FFFBFB;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.line4 {
+    position: absolute;
+    width: 1049px;
+    height: 0px;
+    left: 195px;
+    top: 539px;
+
+    border: 2px solid #FFFBFB;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.line5 {
+    position: absolute;
+    width: 1049px;
+    height: 0px;
+    left: 195px;
+    top: 623.04px;
+
+    border: 2px solid #FFFBFB;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.line6 {
+    position: absolute;
+    width: 1049px;
+    height: 0px;
+    left: 195px;
+    top: 717px;
+
+    border: 2px solid #FFFBFB;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.line7 {
+    position: absolute;
+    width: 1049px;
+    height: 0px;
+    left: 195px;
+    top: 810px;
+
+    border: 2px solid #FFFBFB;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* The output fields for the subscriptions */
+.subName {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 50px;
+    top: 190px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subDate {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 870px;
+    top: 190px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subPayAmount {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 680px;
+    top: 190px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subName2 {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 50px;
+    top: 273px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subDate2 {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 870px;
+    top: 273px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subPayAmount2 {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 680px;
+    top: 273px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subName3 {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 50px;
+    top: 373px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subDate3 {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 870px;
+    top: 373px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subPayAmount3 {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 680px;
+    top: 373px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subName4 {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 50px;
+    top: 463px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subDate4 {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 870px;
+    top: 463px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subPayAmount4 {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 680px;
+    top: 463px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subName5 {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 50px;
+    top: 546px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subDate5 {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 870px;
+    top: 546px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subPayAmount5 {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 680px;
+    top: 546px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subName6 {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 50px;
+    top: 638px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subDate6 {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 870px;
+    top: 638px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subPayAmount6 {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 680px;
+    top: 638px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subName7 {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 50px;
+    top: 732px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subDate7 {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 870px;
+    top: 732px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subPayAmount7 {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 680px;
+    top: 732px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subtrack-home-button { 
+    position: absolute;
+    width: 74px;
+    height: 49px;
+    left: 924px;
+    top: 42px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 50px;
+
+    border: none;
+    cursor: pointer;
+
+    background: #1A92D6;
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}

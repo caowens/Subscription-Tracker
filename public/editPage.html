@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="background-default">
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- Firebase SDKs -->
+        <script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+
+        <!-- Firebase Config -->
+
+        <!-- Initialize Firebase -->
+        <!-- <script src="/__/firebase/init.js"></script> -->
+
+        <!-- SubTrack CSS -->
+        <link rel="stylesheet" type="text/css" href="editPage.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <img src="subtrack icon correct.png" alt="subtrack icon" class="subtrack-icon-main">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Oswald&display=swap" rel="stylesheet">
+
+        <title>Edit Subscription Page</title>
+    </head>
+
+    <body>
+        <!-- Nav Bar -->
+        <a href="home.html"><button class="subtrack-home">HOME</button></a>
+        <h2 class="subtrack-faq">FAQ</h2>
+        <h2 class="subtrack-about">ABOUT</h2>
+        <h2 class="subtrack-account">ACCOUNT</h2>
+        <h2 class="subtrack-title-main">SUBTRACK</h2>
+        <div class="navBar"></div>
+
+        <!-- addSub Page Block -->
+        <div class="main-block"></div>
+
+        <h1 class="composeTitle">Edit this Subscription</h2>
+
+        <h2 class="nameCompany">Name of the company:</h2>
+        <input type="textfield" placeholder="Nickname" class="editNameInput" id="editName" />
+        <h2 class="dateDue">Date payment is due</h2>
+        <input type="textfield" placeholder="Ex. 05/24/2021" class="editDateInput" id="editDate" />
+        <h2 class="payAmount">Amount to be paid</h2>
+        <input type="textfield" placeholder="Ex. 5.99" class="editPayInput" id="editAmount" />
+
+        <!-- <h1 class="subName" id="subNameOutput">Subscription Name: </h1>
+        <h1 class="subDate" id="subDateOutput">Subscription Date: </h1>
+        <h1 class="subPayAmount" id="subPayAmountOutput">Subscription Pay Amount: </h1> -->
+
+        <!-- <a href="home.html"> -->
+        <button id="editButton" class="createRectangle createText">Update</button>
+
+        <!-- <button id="testHome">Home</button> -->
+        <!-- <button id="loadButton">Load</button> -->
+        <script src="subtrackConfig.js"></script>
+    </body>
+</html>

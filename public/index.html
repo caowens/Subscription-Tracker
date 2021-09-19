@@ -6,6 +6,7 @@
     <!-- Firebase SDKs -->
     <script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.13.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
 
     <!-- Firebase Config -->
     <script src="subtrackConfig.js"></script>
@@ -17,10 +18,13 @@
     <script src="https://www.gstatic.com/firebasejs/ui/4.7.1/firebase-ui-auth.js"></script>
     <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.7.1/firebase-ui-auth.css" />
 
+    <!-- Link to Firestore JS -->
+    <script src="cloud.js"></script>
+
     <!-- SubTrack CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/landing.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-    <img src="/assets/img/subtrack_icon_correct.png" alt="subtrack icon" class="subtrack-icon">
+    <link rel="stylesheet" type="text/css" href="landing.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <img src="subtrack icon correct.png" alt="subtrack icon" class="subtrack-icon-landing">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Oswald&display=swap" rel="stylesheet">
 
@@ -30,7 +34,7 @@
   <script>
     // FirebaseUI config.
     var uiConfig = {
-    signInSuccessUrl: 'loggedIn.html',
+    signInSuccessUrl: 'home.html',
     signInOptions: [
         // Leave the lines as is for the providers you want to offer your users.
         firebase.auth.EmailAuthProvider.PROVIDER_ID,
@@ -46,10 +50,11 @@
   <body>
     <div id="firebaseui-auth-container" class="prebuilt"></div>
     <h1 class="subtrack-title">SubTrack</h1>
-    <h2 class="home-style">HOME</h2>
-    <h2 class="faq-style">FAQ</h2>
-    <h2 class="about-style">ABOUT</h2>
-    <h2 class="account-style">ACCOUNT</h2>
+    <a href="home.html"><button class="subtrack-home">HOME</button></a>
+    <!-- <h2 class="subtrack-home">HOME</h2> -->
+    <h2 class="subtrack-faq">FAQ</h2>
+    <h2 class="subtrack-about">ABOUT</h2>
+    <h2 class="subtrack-account">ACCOUNT</h2>
     <div class="icon-square"></div>
   </body>
 

@@ -1,0 +1,156 @@
+.composeTitle {
+    position: absolute;
+    width: 689px;
+    height: 205px;
+    left: 375px;
+    top: 120px;
+
+    font-family: 'Asap Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 83px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nameCompany {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 537px;
+    top: 326px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.editNameInput {
+    position: absolute;
+    width: 504px;
+    height: 55px;
+    left: 468px;
+    top: 414px;
+
+    background: #36A1D4;
+    border: 1px solid #206BA0;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.dateDue {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 532px;
+    top: 470px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.editDateInput {
+    position: absolute;
+    width: 504px;
+    height: 55px;
+    left: 463px;
+    top: 558px;
+
+    background: #36A1D4;
+    border: 1px solid #206BA0;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.payAmount {
+    position: absolute;
+    width: 365px;
+    height: 48px;
+    left: 532px;
+    top: 618px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.editPayInput {
+    position: absolute;
+    width: 504px;
+    height: 55px;
+    left: 463px;
+    top: 711px;
+
+    background: #36A1D4;
+    border: 1px solid #206BA0;
+    box-sizing: border-box;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+.createText {
+    position: absolute;
+    width: 245px;
+    height: 40px;
+    left: 589px;
+    top: 770px;
+
+    font-family: 'Asap Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+
+    color: #FFFBFB;
+
+    cursor: pointer;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+
+    z-index: 1;
+}
+
+.createRectangle {
+    position: absolute;
+    width: 279px;
+    height: 60px;
+    left: 575px;
+    top: 785px;
+
+    background: #36A1D4;
+    border: 1px solid #FFFBFB;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+    filter: drop-shadow(5px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
